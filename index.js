@@ -156,7 +156,7 @@ function myres(){
 
 function myarch(){
       const arc='<iframe id="frm1" src="https://andydick1947.github.io/BC-Archive/"></iframe>';
-     /* const arc='<iframe id="frm1" src="TBD.html"></iframe>';*/
+
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
