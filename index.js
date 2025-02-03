@@ -65,7 +65,7 @@ function tgle(){
 }
 
 function myintro(){
-      const int='<p class="mytxt"><br>    The Bridge Section of the LMBC was founded in 2021 by two members of the Bowling Club - Gill Daniels and Jenny Young. Since then it has developed into a thriving club of up to seven tables, using an electronic scoring system to enter and produce the results.  The aim of the club is to provide a regular facility for Duplicate Contract Bridge in a welcoming and friendly environment for players of all standards</p>';
+      const int='<p class="mytxt"><br>    The Bridge Section of the LMBC was founded in 2021 by two members of the Bowling Club - Gill Daniels and Jenny Young. Since then it has developed into a thriving club of up to seven tables.<br> <br> The aim of the club is to provide a regular facility for Duplicate Contract Bridge in a welcoming and friendly environment for players of all standards. <br>  <br>Scoring at club nights has been enhanced with the introduction of a digital system. This uses easy to read digital touch screens enabling straightforward input of results for games played. After completion of each round the screen informs  players of the movement for the next round. Final results are available on screen at the end of the whole session.</p>';
       const div=document.createElement("div");
       const mydiv=document.getElementById("mainsect");
       mydiv.appendChild(div);
