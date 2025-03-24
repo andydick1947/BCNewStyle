@@ -19,7 +19,7 @@
     <button type="button" id="butn52" class="btn">27 MAR 26</button>
 
   </div>
-  <div class="target4"></div>
+  <div class="target3"></div>
 
     <script src="res-bar.js"></script>
     <script>
@@ -57,7 +57,7 @@ document.getElementById(bt).style.color="darkgray";
      return sk; 
      }
        function ldfle(){
-       const target4El=document.querySelector(".target4");
+       const target3El=document.querySelector(".target3");
       
        fetch(sk)
        
@@ -67,7 +67,7 @@ document.getElementById(bt).style.color="darkgray";
                }
        })
        .then(selectFile =>{
-       target4El.innerHTML=selectFile;
+       target3El.innerHTML=selectFile;
        });
        }
        
